@@ -32,6 +32,9 @@ object ValiwienFX {
       f(ev)
     }
   }
+  def runnable(f: => Unit) = new Runnable {
+    def run() = { f }
+  }
   
 }
 class ValiwienFX extends Application {

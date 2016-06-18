@@ -2,6 +2,7 @@ package valiwien.client
 
 import javafx.scene.Group
 import valiwien.common.Entity
+import javafx.scene.Scene
 
 trait EntityFX {
   
